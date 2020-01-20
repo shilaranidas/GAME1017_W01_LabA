@@ -105,7 +105,7 @@ void Engine::clean()
 
 int Engine::run()
 {
-	if (init("GAME1007_SDL_Setup", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, 0) == false)
+	if (init("Test Game", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, 0) == false)
 		return 1;
 	while (m_bRunning)
 	{
