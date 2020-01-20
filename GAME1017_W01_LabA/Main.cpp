@@ -1,9 +1,7 @@
-#include<iostream>
-using namespace std;
+#include "Engine.h"
 
-int main()
+int main(int argc, char* args[]) // Main MUST have these parameters for SDL.
 {
-	cout << "Hello  change!\n";
-	system("pause");
-	return 0;
+	Engine e; // This line will be removed by the Singleton pattern.
+	return e.run();
 }
